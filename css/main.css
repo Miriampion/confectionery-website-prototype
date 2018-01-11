@@ -367,4 +367,10 @@ a:hover {
     font-size: 130%;
   }
 
+  .btn1,
+  .btn2 {
+    width:60%;
+    margin-left: 14rem;
+  }
+
 }
