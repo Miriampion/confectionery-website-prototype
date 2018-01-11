@@ -26,7 +26,7 @@ body {
 h1 {
   background-color: rgba(175, 179, 159, .4);
   text-align: center;
-  margin: 1 0 1.3rem;
+  margin: 1rem 0 1.3rem;
   font-size: 3rem;
 }
 
@@ -299,7 +299,7 @@ a:hover {
   text-align: center;
 }
 
-@@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 25em) {
 
   html {
     font-size: 100%;
