@@ -113,10 +113,6 @@ p {
   margin: auto;
 }
 
-.cake {
-  position: relative;
-}
-
 .recipetext {
   position: absolute;
   color: #fff;
@@ -125,8 +121,12 @@ p {
   margin: 0;
   transform: translate(-50%, -50%);
   background-color: rgba(247, 217, 11, .4);
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   border-radius: 8px;
+}
+
+.cake {
+  position: relative;
 }
 
 .candytext {
