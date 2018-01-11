@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Arima Madurai', cursive;
+  font-family: "Arima Madurai", cursive;
   font-weight: bold;
 }
 
@@ -44,27 +44,27 @@ ul {
 
 .navigation {
   text-align: center;
-  display:inline-block;
+  display: inline-block;
 }
 
 .navigation a {
   text-decoration: none;
   color: #fff;
-  display:inline-block;
+  display: inline-block;
   padding: 1rem;
 }
 
 .maca1 {
   float: left;
-  left:25px;
+  left: 25px;
   width: 50px;
-  border: 3px dotted rgba(247,217,11, .4);
+  border: 3px dotted rgba(247, 217, 11, .4);
 }
 
 .maca2 {
   float: right;
-  width:50px;
-  border: 3px dotted rgba(247,217,11, .4);
+  width: 50px;
+  border: 3px dotted rgba(247, 217, 11, .4);
 }
 
 img {
@@ -75,17 +75,17 @@ img {
   text-align: center;
   margin-bottom: 0;
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  padding: 0;
 }
 
 .cone {
   padding: 1rem 2rem;
   border-radius: 8px;
-  background-color: rgba(247,217,11, .4);
+  background-color: rgba(247, 217, 11, .4);
   text-align: center;
   color: #333;
 }
-
 
 p {
   text-align: center;
@@ -102,27 +102,29 @@ p {
   top: 50%;
   left: 50%;
   margin: 0;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: #e1c507;
-
 }
 
 .icon {
-  width: 25%;
+  padding: .125rem;
+  overflow: hidden;
+  width: 50%;
+  margin: auto;
 }
 
 .cake {
   position: relative;
 }
 
-.recipes {
+.recipetext {
   position: absolute;
   color: #fff;
   left: 50%;
   top: 50%;
   margin: 0;
-  transform: translate(-50%,-50%);
-  background-color: rgba(247,217,11, .4);
+  transform: translate(-50%, -50%);
+  background-color: rgba(247, 217, 11, .4);
   padding: 1rem 2rem;
   border-radius: 8px;
 }
@@ -132,8 +134,8 @@ p {
   left: 50%;
   top: 50%;
   margin: 0;
-  transform: translate(-50%,-50%);
-  background-color: rgba(247,217,11, .4);
+  transform: translate(-50%, -50%);
+  background-color: rgba(247, 217, 11, .4);
   padding: 1rem 2rem;
   border-radius: 8px;
 }
@@ -147,14 +149,14 @@ p {
   left: 50%;
   top: 80%;
   margin: 0;
-  transform: translate(-50%,-50%);
-  background-color: rgba(247,217,11, .4);
+  transform: translate(-50%, -50%);
+  background-color: rgba(247, 217, 11, .4);
   padding: 1rem 2rem;
   border-radius: 8px;
 }
 
 .btnbook a {
-  color: #fff ;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -167,13 +169,7 @@ p {
   left: 50%;
   top: 15%;
   margin: 0;
-  transform: translate(-50%,-50%);
-}
-
-.tours {
-  font-size: 2.5rem;
-  padding: 0;
-  margin-bottom: 0;
+  transform: translate(-50%, -50%);
 }
 
 .kid {
@@ -186,7 +182,7 @@ p {
   left: 50%;
   top: 15%;
   margin: auto;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   text-align: center;
 }
@@ -213,7 +209,7 @@ a:hover {
   top: 80%;
   margin: 0;
   transform: translate(-50%,-50%);
-  background-color: rgba(247,217,11, .8);
+  background-color: rgba(247, 217, 11, .8);
   padding: 1rem 2rem;
   width: 100%;
 }
@@ -227,7 +223,7 @@ a:hover {
   border: 4px solid #e2e2e2;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 5px 5px 10px #888888;
+  box-shadow: 5px 5px 10px #888;
 }
 
 .btn2 {
@@ -236,17 +232,17 @@ a:hover {
   margin-left: .5em;
   width: 95%;
   padding: 1em;
-  border: 4px solid #e2e2e2 ;
+  border: 4px solid #e2e2e2;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 5px 5px 10px #888888;
+  box-shadow: 5px 5px 10px #888;
 }
 
 .btn {
   background-color: #fff;
   color: #333;
   text-decoration: none;
-  padding: .1em .75em .1em;
+  padding: .1em .75em;
   text-align: center;
   border-radius: 8px;
   display: inline-block;
@@ -270,27 +266,26 @@ a:hover {
 .twitter {
   float: left;
   width: 33%;
-  padding: .50rem;
+  padding: .5rem;
 }
 
 .insta {
   float: left;
   width: 33%;
-  padding: .50rem;
+  padding: .5rem;
 }
 
 .facebook {
-  float:left;
+  float: left;
   width: 33%;
-  padding: .50rem;
+  padding: .5rem;
 }
 
 .icon {
   padding: .125rem;
-  margin: 1rem 0;
   overflow: hidden;
   width: 50%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .contact {
@@ -350,7 +345,7 @@ a:hover {
   }
 
   .icon {
-    width: 25%
+    width: 25%;
   }
 
   .maca1,
